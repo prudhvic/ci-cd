@@ -18,7 +18,7 @@ app.get('/api/health', (_request, response) => {
   });
 });
 
-app.get("/api/user", (req, res) => {
+app.get("/api/user", (_req, res) => {
   res.json({ name: "prudhvi" })
 })
 app.get('/api/version', (_request, response) => {
